@@ -1,6 +1,9 @@
 'use strict';
 
 const fs = require('fs');
+var should = require("should");
+var request = require("request");
+var expect = require("chai").expect;
 
 var parseString = require('xml2js').parseString,
     xml2js = require('xml2js');
@@ -8,7 +11,7 @@ var parseString = require('xml2js').parseString,
 fs.readFile('test.json', (err, data) => {  
     if (err) throw err;
     let student = JSON.parse(data);
-    student['name'] = 'wiproltd';
+    student['gender'] = 'male';
     console.log(student);
 
     console.log('This is after the read call');  

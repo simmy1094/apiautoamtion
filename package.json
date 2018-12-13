@@ -27,8 +27,13 @@
   },
   "homepage": "https://github.com/therollingtester/mocha-starwars-apitests#readme",
   "dependencies": {
+    "chromedriver": "^2.44.1",
     "easy-soap-request": "^2.3.0",
+    "express": "^4.16.4",
     "fs": "0.0.1-security",
+    "gulp": "^4.0.0",
+    "http-assert": "^1.4.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
     "supertest": "^3.3.0",
     "xmlhttprequest": "^1.8.0"
   }

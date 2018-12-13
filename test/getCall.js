@@ -6,13 +6,11 @@ var util = require("util");
 
 describe('gets', function() {
     it('gets', function(done) {
-        request.get({ url: baseUrl + '/posts' },
+        request.get({ url: baseUrl + '/posts/1' },
             function(error, response, body) {
-                    //var bodyObj = JSON.parse(body);
-                    //console.log(body);
-                    expect(response.statusCode).to.equal(200);
-                    expect('userId', 1)
-                    done();
+              expect(response.statusCode).to.equal(200);
+              expect('userId', 1)
+                done();
             });
     });
 });

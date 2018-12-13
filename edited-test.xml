@@ -3,19 +3,19 @@
   <graph>
     <node>
       <name>Node 1</name>
-      <company>wiproLTD</company>
+      <company>wipro</company>
     </node>
     <node>
       <name>Node 2</name>
-      <weight>18</weight>
+      <company>18</company>
     </node>
     <node>
       <name>Node 3</name>
-      <weight>47</weight>
+      <company>wiproltd</company>
     </node>
     <node>
       <name>Node 4</name>
-      <weight>58</weight>
+      <company>58</company>
     </node>
   </graph>
 </root>

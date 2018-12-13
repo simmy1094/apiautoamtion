@@ -4,20 +4,17 @@ var fs = require('fs'),
 
 fs.readFile('test.xml', 'utf-8', function (err, data){
     if(err) console.log(err);
-    // we log out the readFile results    
+    
     console.log(data);
-    // we then pass the data to our method here
+    
     parseString(data, function(err, result){
         if(err) console.log(err);
-        // here we log the results of our xml string conversion
+       
         console.log(result); 
         
         var json = result;
         
-        json.root.graph[0].node[0].company = "wiproLTD";
-        
-        // create a new builder object and then convert
-        // our json back to xml.
+        json.root.graph[0].node[2].company = "wiproltd";
         var builder = new xml2js.Builder();
         var xml = builder.buildObject(json);
         

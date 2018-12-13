@@ -1,22 +1,5 @@
 
 ==========
-
-
-
-# Mocha Star Wars API Tests 
-> Star Wars API test from the command line with love to you 
-
-
-## Features
-
-
-- Written in JavaScript 
-- Hits the Galactic endpoints from the outside world 
-- Assertions on the JSON response
-- Quick and efficent
-- Easy to write new tests
-
-
 ## Installation
 
 1) Install [node.js](http://nodejs.org/), by either crack open your favourite package manager: typically `apt-get install nodejs` on Debian/Ubuntu Linux, `brew install node` on a Mac
@@ -26,13 +9,12 @@
 2) Clone the repository from github:
 <br>
 ```
-$ git clone https://github.com/therollingtester/mocha-starwars-apitests.git
-```
+$ git clone https://github.com/simmy1094/apiautoamtion.git
 
 3) CD into the repository 
 <br>
 ```
-$ cd mocha-starwars-apitests
+$ cd API AUTOMATION
 ```
 
 4) Install all the dependencies by:
@@ -44,13 +26,15 @@ $ npm install
 5) Fire up Mocha to run the tests!
 <br>
 ```
-$ mocha
+$ mocha (file name) e.g../node_modules/mocha/bin/mocha test/test.js
+
 ```
+6)command to install html report generator
+npm install --save-dev mocha-simple-html-reporter
 
+7)comand to run with report
 
-
-
-
+mocha OpenCart.Js --reporter mocha-simple-html-reporter --reporter-options output=report.html
 
  
 

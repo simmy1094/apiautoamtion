@@ -7,15 +7,15 @@
         </node>
         <node>
             <name>Node 2</name>
-            <weight>18</weight>
+            <company>18</company>
         </node>
         <node>
             <name>Node 3</name>
-            <weight>47</weight>
+            <company>47</company>
         </node>
         <node>
             <name>Node 4</name>
-            <weight>58</weight>
+            <company>58</company>
         </node>
     </graph>
 </root>
